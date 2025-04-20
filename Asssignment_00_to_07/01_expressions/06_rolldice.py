@@ -1,0 +1,17 @@
+import random
+
+def main():
+   
+    die1 = random.randint(1, 6)
+    die2 = random.randint(1, 6)
+    total = die1 + die2
+
+    # Print the results
+    print("Rolling two dice...")
+    print(f"Die 1: {die1}")
+    print(f"Die 2: {die2}")
+    print(f"Total: {total}")
+
+# Call the main function
+if __name__ == '__main__':
+    main()
